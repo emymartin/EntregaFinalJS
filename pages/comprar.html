@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Angry Keys - Teclados Mecánicos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-sm ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../images/angrykeylogo.png" alt="Icono de tecla enojada"
+                width="80px" height="80px" class="hlogo" /></a></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/parte.html">Parte x Parte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/teclados.html">Teclados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/comprar.html">Comprar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <!-- START SECTION STORE -->
+    <section class="store">
+        <div class="container">
+            <div class="items">
+                <div class="row" id="primerLineaItems">
+                </div>
+                <div class="row" id="segundaLineaItems"> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION STORE -->
+
+    <!-- START SECTION SHOPPING CART -->
+    <section class="shopping-cart">
+        <div class="container">
+            <h3 class="text-center">CARRITO</h3>
+            <br>
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h4>Producto</h4>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h4 class="text-truncate">Precio</h4>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h4>Cantidad</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- ? START SHOPPING CART ITEMS -->
+            <div class="shopping-cart-items contenedorItemsCarrito">
+            </div>
+            <!-- ? END SHOPPING CART ITEMS -->
+
+            <!-- START TOTAL -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total</p>
+                        <p class="ml-4 mb-0 totalDelCarro mt-2">U$S 0.00</p>
+                        <p class="ml-4 mb-0 totalPesos mt-2">$ 0.00</p>
+                        <p class="ml-4 mb-0 totalConImpuestos mt-2">$ 0.00</p>                                                
+                    </div>
+                </div>
+            </div>
+            <!-- END TOTAL -->
+
+            <!-- START BOTONES -->
+            <div class="botones">
+                <div class="col-12 d-flex align-items-center">
+                    <button class="btn btn-success ml-auto comprarButton" type="button">Comprar</button>                        
+                    <button class="btn btn-danger vaciarButton" type="button">Vaciar</button>
+                </div>
+            </div>
+        <!-- END BOTONES -->
+        </div>
+    </section>
+    <!-- END SECTION SHOPPING CART -->
+
+
+    <!-- START FOOTER -->
+    <footer>
+        <a href="../index.html"><img src="../images/angrykeylogo.png" alt="Icono de tecla enojada" width="80px"
+            height="80px" /></a>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./parte.html">Parte x Parte</a></li>
+            <li><a href="./teclados.html">Teclados</a></li>
+            <li><a href="./comprar.html">Comprar</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        <div class="redes">
+            <a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../tienda.js"></script>
+</body>
+</html>
