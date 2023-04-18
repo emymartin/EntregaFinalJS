@@ -318,8 +318,7 @@ function agregarAlCarritoClickeado(event) {
     const input = event.target;
     //validacion con operador ternario
     input.value <= 0 ? (input.value = 1) : null;
-    
-    
+        
     const item = input.closest('.shoppingCartItem');
     const itemTitle = item.querySelector('.shoppingCartItemTitle').textContent;
 
